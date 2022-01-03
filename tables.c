@@ -1,9 +1,11 @@
 #include<stdio.h>
 void main()
 {
-	int i;
-	for(i=1;i<=1000000000000;i++)
+	int x,y;
+	printf("enter the number");
+	scanf("%d ",&x);
+	for(y=1;y<=20;y++)
 	{
-		printf(" I LOVE YOU \n");
+		printf("%d * %d = %d\n ",x,y,x*y);
 	}
 }
