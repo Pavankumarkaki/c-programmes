@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main ()
 {
-	int a,b,i,c,x,y,count=0;
+	int a,b,i,c,x,y;
 	printf("enter the number for LCM");
 	scanf("%d%d",&a,&b);
 	if(a>b)
